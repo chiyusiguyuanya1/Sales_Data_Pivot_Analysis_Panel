@@ -19,8 +19,3 @@ database/orders.db
 Thumbs.db
 .idea/
 .vscode/
-
-# temporary assets not used by the app
-image.png
-image-1.png
-image-2.png
