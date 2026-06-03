@@ -1,0 +1,20 @@
+{
+  "name": "sales-pivot-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test:e2e": "npm run build && playwright test"
+  },
+  "dependencies": {
+    "element-plus": "^2.11.5",
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^5.4.19"
+  }
+}

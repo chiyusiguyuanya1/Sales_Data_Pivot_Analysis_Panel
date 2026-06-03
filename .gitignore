@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+frontend/dist/
+
+# local runtime files
+server-out.log
+server-err.log
+test-results/
+playwright-report/
+
+# local database
+database/orders.db
+
+# local editor / system
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# temporary assets not used by the app
+image.png
+image-1.png
+image-2.png
